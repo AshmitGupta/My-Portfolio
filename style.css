@@ -1,0 +1,150 @@
+
+
+
+.container-fluid{
+    padding:3% 4%;
+    height:40%;
+}
+
+.navbar-brand{
+    font-size:1.5rem;
+    padding-left:3%;
+    font-family:'Poppins';
+    font-weight:600;
+    font-size:200%;
+}
+
+.nav-item{
+    padding: 0 18px;
+    font-size:20px;
+}
+
+.heading2{
+    font-size: 7vw;
+ margin-right: auto;
+ margin-top: 49%;
+ margin-left:6%;
+ color:white;
+
+
+}
+.sub-heading2{
+    font-size: 4vw;
+    margin-right: auto;
+    margin-left:6%;
+    color:white;
+}
+
+.img-fluid{
+    filter: brightness(40%);
+    width: 100% ; 
+}
+
+.card{
+    padding:3% 4%;
+}
+
+.row{
+    padding-left:10%;
+    padding-right:10%;
+}
+
+.about{
+    padding-top:20px; 
+}
+
+.languages-sub-heading{
+    font-family:'Nunito';
+    font-weight: 300;
+    font-size:20px;
+    line-height:1.8;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6 {
+    font-family:'Poppins';
+    font-weight: 600;
+}
+
+p {
+    font-family:'Nunito';
+    font-weight: 300;
+    font-size:20px;
+    line-height:1.8;
+}
+
+ul {
+    font-family:'Nunito';
+    font-weight: 300;
+    font-size:18px;
+    line-height:1.8;
+}
+
+
+/* Academic */
+
+.school-name{
+    font-size:30px;
+    padding-top:12px;
+}
+
+
+
+
+
+/* Achievements */
+
+
+.achievements-sub-heading{
+    font-size:30px;
+    padding-top:12px;
+}
+
+
+
+
+
+/* CONTACT */
+
+.card{
+    background:#e7f5fb;
+    border:none;
+    text-align:center; 
+}
+
+.contact-heading{
+    font-size:300%;
+}
+
+/* Footer */
+
+button{
+    background-color:#e7f5fb;
+    border-radius:500%;
+    border:none;
+    display:inline-block;
+    outline:none;
+    font-size:135%;
+    height:20%;
+    margin-left:1%;
+}
+
+.footer-icon{
+    margin: 20px 20px 20px;
+
+}
+
+.container-fluid-2{
+    padding:3% 4%;
+    height:40%;
+    text-align:center;
+}
+
+button:hover{
+    background-color:#a5daf0;
+}
+
+button:focus{
+    outline:none;
+}
+
+
