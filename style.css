@@ -147,4 +147,50 @@ button:focus{
     outline:none;
 }
 
+/* Forms */
+
+form{
+        font-family:'Nunito';
+        font-weight: 300;
+        font-size:20px;
+        line-height:1.3;
+}
+
+.placeholder{
+    font-family:'Nunito';
+    font-weight: 300;
+    font-size:20px;
+    line-height:1.8;
+}
+
+input[type=submit]{
+    padding: 2%;
+    background-color: #a5daf0;
+    border:none;
+}
+
+input[type=reset]{
+    padding: 2%;
+    background-color: #a5daf0;
+    border:none;
+}
+
+.submit-button{
+    display:inline;
+
+}
+
+.reset-button{
+    display:inline;
+    margin-left: 3%;
+
+}
+
+input[type=submit]:hover , input[type=reset]:hover{
+    background-color:#D6EAF8;
+}
+
+input[type=submit]:focus , input[type=reset]:focus{
+    outline: none;
+}
 
