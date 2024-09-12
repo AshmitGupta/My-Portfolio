@@ -3,112 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ashmit Gupta - My Portfolio</title>
+    <title>Ashmit Gupta - Portfolio</title>
     <meta name="description" content="Official portfolio of Ashmit Gupta, a Computer Science and Data Science student at UBC.">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" type='text/css' href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600&family=Poppins:wght@600&display=swap" rel="stylesheet">
+
     <script src="https://kit.fontawesome.com/89efaed827.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <nav class="navbar sticky-top navbar-light navbar-expand-lg bg-light">
-    <a class="navbar-brand" href="index.html">
-        Ashmit Gupta
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="academic.html">Academics<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="achievements.html">Achievements</a>
-          </li>
-        </ul>
-    </div>
- </nav>
-
-    <div class='container-fluid'>
-         <img src="dummypic.jpg" class="img-fluid" alt="Responsive image">
-         <div class="card-img-overlay">
-            <h5 class="heading2">I'm Ashmit Gupta</h5>
-            <h6 class="sub-heading2">Welcome to My Portfolio.</h6>
-         </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-8">
-            <h1 class='heading'>Who am I?</h1>
-            <p class='sub-heading'>
-              I am Ashmit Gupta, currently pursuing a Bachelor of Science, majoring in Computer Science and minoring in Data Science at the University of British Columbia. With a strong academic background and experience across various software development roles, I aim to blend technical expertise with innovative solutions in the tech industry.
-            </p>
-            <br>
-            <h1 class='heading'>Languages</h1>
-            <ul class='languages-sub-heading'>
-              <li>English: Native or bilingual Proficiency</li>
-              <li>Hindi: Native or bilingual Proficiency</li>
-              <li>French: Elementary Proficiency</li>
-            </ul>
-            <br>
-            <h1 class='heading'>Work Experience</h1>
-            <ul class='languages-sub-heading'>
-              <li>
-                <strong>Software Development Intern, Boeing (Vancouver)</strong><br>May 2024 - Present
-                <ul>
-                  <li>Created graph databases using Neo4j and queried them with GPT-4 for efficient data retrieval.</li>
-                  <li>Developed APIs to query SQL data and integrated data using XML parsing.</li>
-                  <li>Built a frontend using Flask, HTML, CSS, and JavaScript for mechanics to access information.</li>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3 text-accent" href="index.html">Ashmit Gupta</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-dark" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-dark" href="achievements.html">Achievements</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-dark" href="academic.html">Academics</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-dark" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-dark" href="contact.html">Contact</a>
+                    </li>
                 </ul>
-              </li>
-              <li>
-                <strong>Software Development Intern, Motorola Solutions (Vancouver)</strong><br>January 2023 - August 2023
-                <ul>
-                  <li>Developed a React-based search feature with custom hooks, debouncing, and lazy loading for the ACM portal.</li>
-                  <li>Managed CI/CD pipelines using Docker & Jenkins, resolving bugs in C++, JavaScript, and Ruby.</li>
-                  <li>Participated in scrum meetings, reviewed pull requests, and worked with Bitbucket and Atlassian tools.</li>
-                </ul>
-              </li>
-              <li>
-                <strong>CTO, CaterDash</strong> <br>January 2024 - Present
-                <ul>
-                  <li>Built a full-stack site with MongoDB, Google Cloud Functions, and Python code deployment for catering orders.</li>
-                  <li>Partnered with 90% of tech events in Vancouver, including Google, Microsoft, SAP, etc.</li>
-                </ul>
-              </li>
-            </ul>
+            </div>
         </div>
-        <div class="col-lg-4">
-            <h4 class='about'>About this site</h4>
-            <p class='about-para'>This is a portfolio website developed and maintained by Ashmit Gupta, showcasing my skills, projects, and work experience.</p>
-            <h4 class='about'>Technological Skills</h4>
-            <ul class='about-para'>
-              <li>Python, Java, C++</li>
-              <li>JavaScript, React, Node.js</li>
-              <li>SQL, MongoDB</li>
-              <li>AWS, Docker</li>
-            </ul>
-        </div>
-    </div>
+    </nav>
 
-    <footer class="white-section" id='footer'>
-      <div class='container-fluid-2'>
-        <button onclick="window.location.href='https://www.linkedin.com/in/ashmit-gupta-180b101b5/'">
-          <i class="footer-icon fab fa-linkedin-in"></i>
-        </button>
-        <button onclick="window.location.href='https://github.com/AshmitGupta'">
-          <i class="footer-icon fab fa-github"></i>
-        </button>
-        <button onclick="window.location.href='mailto:ashmit03@student.ubc.ca'">
-          <i class="footer-icon fas fa-envelope"></i>
-        </button>
-      </div>
-    </footer>
+    <section class="main-section">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-md-6 order-md-1 order-2">
+                    <h1 class="display-4 fw-bold text-black">Hi, I'm <span class="text-accent">Ashmit Gupta</span></h1>
+                    <h2 class="text-secondary mb-3">
+                        <span id="typed-text"></span><span id="cursor"></span>
+                    </h2>
+                    <p class="text-muted mb-4">
+                        I am Ashmit Gupta, currently pursuing a Bachelor of Science, majoring in Computer Science and minoring in Data Science at the University of British Columbia. With a strong academic background and experience across various software development roles, I aim to blend technical expertise with innovative solutions in the tech industry.
+                    </p>
+                    <div class="mb-3">
+                        <a href="#contact" class="btn btn-outline-secondary">Let's Talk</a>
+                    </div>
+
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/ashmit-gupta-180b101b5/" class="text-decoration-none me-3">
+                            <i class="fab fa-linkedin fa-2x text-secondary"></i>
+                        </a>
+                        <a href="https://github.com/AshmitGupta" class="text-decoration-none me-3">
+                            <i class="fab fa-github fa-2x text-secondary"></i>
+                        </a>
+                        <a href="mailto:ashmit03@student.ubc.ca" class="text-decoration-none">
+                            <i class="fas fa-envelope fa-2x text-secondary"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 text-center order-md-2 order-1">
+                    <img src="ashmit-gupta-pic.jpeg" alt="Ashmit Gupta" class="img-fluid profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

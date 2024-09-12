@@ -1,196 +1,161 @@
-
-
-
-.container-fluid{
-    padding:3% 4%;
-    height:40%;
+body {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
-.navbar-brand{
-    font-size:1.5rem;
-    padding-left:3%;
-    font-family:'Poppins';
-    font-weight:600;
-    font-size:200%;
+.text-accent {
+    color: #CA786C;
 }
 
-.nav-item{
-    padding: 0 18px;
-    font-size:20px;
+.text-secondary {
+    color: #CEF7FC;
 }
 
-.heading2{
-    font-size: 7vw;
- margin-right: auto;
- margin-top: 49%;
- margin-left:6%;
- color:white;
-
-
-}
-.sub-heading2{
-    font-size: 4vw;
-    margin-right: auto;
-    margin-left:6%;
-    color:white;
+.btn-primary {
+    background-color: #CA786C;
+    border: none;
+    border-radius: 50px;
+    padding: 0.5rem 1.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 1rem;
 }
 
-.img-fluid{
-    filter: brightness(40%);
-    width: 100% ; 
+.btn-primary:hover {
+    background-color: #A75E55;
 }
 
-.card{
-    padding:3% 4%;
+.btn-outline-secondary {
+    color: #CA786C;
+    border: 2px solid #CA786C;
+    border-radius: 50px;
+    padding: 0.5rem 1.5rem;
+    font-weight: bold;
+    font-size: 1rem;
 }
 
-.row{
-    padding-left:10%;
-    padding-right:10%;
+.btn-outline-secondary:hover {
+    background-color: #CA786C;
+    color: #FFFFFF;
 }
 
-.about{
-    padding-top:20px; 
+.navbar-brand {
+    color: #CA786C !important;
 }
 
-.languages-sub-heading{
-    font-family:'Nunito';
-    font-weight: 300;
-    font-size:20px;
-    line-height:1.8;
+.nav-link {
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 500;
 }
 
-h1 , h2 , h3 , h4 , h5 , h6 {
-    font-family:'Poppins';
-    font-weight: 600;
+.nav-link:hover {
+    color: #CA786C;
 }
 
-p {
-    font-family:'Nunito';
-    font-weight: 300;
-    font-size:20px;
-    line-height:1.8;
+.main-section {
+    min-height: calc(100vh - 70px);
+    display: flex;
+    align-items: center;
+    padding-top: 70px;
 }
 
-ul {
-    font-family:'Nunito';
-    font-weight: 300;
-    font-size:18px;
-    line-height:1.8;
+.container.h-100 {
+    height: 100%;
 }
 
-
-/* Academic */
-
-.school-name{
-    font-size:30px;
-    padding-top:12px;
+.row.h-100 {
+    height: 100%;
 }
 
-
-
-
-
-/* Achievements */
-
-
-.achievements-sub-heading{
-    font-size:30px;
-    padding-top:12px;
+.display-4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
 }
 
-
-
-
-
-/* CONTACT */
-
-.card{
-    background:#e7f5fb;
-    border:none;
-    text-align:center; 
+.text-muted {
+    color: #666666 !important;
 }
 
-.contact-heading{
-    font-size:300%;
+.profile-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid #CEF7FC;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Footer */
-
-button{
-    background-color:#e7f5fb;
-    border-radius:500%;
-    border:none;
-    display:inline-block;
-    outline:none;
-    font-size:135%;
-    height:20%;
-    margin-left:1%;
+@media (min-width: 992px) {
+    .profile-image {
+        max-width: 80%;
+    }
 }
 
-.footer-icon{
-    margin: 20px 20px 20px;
-
+@media (min-width: 1200px) {
+    .profile-image {
+        max-width: 70%;
+    }
 }
 
-.container-fluid-2{
-    padding:3% 4%;
-    height:40%;
-    text-align:center;
+#typed-text {
+    font-family: 'Poppins', sans-serif;
+    color: #737373;
 }
 
-button:hover{
-    background-color:#a5daf0;
+#cursor {
+    display: inline-block;
+    background-color: #737373;
+    width: 2px;
+    height: 1em;
+    animation: blink 0.7s steps(1) infinite;
+    vertical-align: middle;
+    margin-left: 2px;
 }
 
-button:focus{
-    outline:none;
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
 }
 
-/* Forms */
-
-form{
-        font-family:'Nunito';
-        font-weight: 300;
-        font-size:20px;
-        line-height:1.3;
+.social-icons a {
+    color: #CA786C;
+    transition: color 0.3s;
 }
 
-.placeholder{
-    font-family:'Nunito';
-    font-weight: 300;
-    font-size:20px;
-    line-height:1.8;
+.social-icons a:hover {
+    color: #A75E55;
 }
 
-input[type=submit]{
-    padding: 2%;
-    background-color: #a5daf0;
-    border:none;
+.social-icons i {
+    font-size: 1.5rem;
 }
 
-input[type=reset]{
-    padding: 2%;
-    background-color: #a5daf0;
-    border:none;
+@media (max-width: 767px) {
+    .main-section {
+        padding-top: 70px;
+        padding-bottom: 20px;
+    }
+
+    .col-md-6 {
+        margin-bottom: 1.5rem;
+    }
+
+    .col-md-6.order-1 {
+        text-align: center;
+    }
+
+    .profile-image {
+        margin: 0 auto;
+        max-width: 60%;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
 }
-
-.submit-button{
-    display:inline;
-
-}
-
-.reset-button{
-    display:inline;
-    margin-left: 3%;
-
-}
-
-input[type=submit]:hover , input[type=reset]:hover{
-    background-color:#D6EAF8;
-}
-
-input[type=submit]:focus , input[type=reset]:focus{
-    outline: none;
-}
-
