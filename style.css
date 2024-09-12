@@ -58,10 +58,10 @@ body {
 }
 
 .main-section {
-    min-height: calc(100vh - 100px);
+    min-height: calc(100vh - 125px);
     display: flex;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 125px;
 }
 
 .container.h-100 {
