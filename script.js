@@ -32,4 +32,39 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     typingEffect();
+
+    document.getElementById("contact-form").addEventListener("submit", function(event) {
+        event.preventDefault(); // Prevent form from submitting normally
+    
+        // Collect form data
+        const formData = {
+            name: document.getElementById("name").value,
+            email: document.getElementById("email").value,
+            message: document.getElementById("message").value
+        };
+    
+        // Send form data to Make.com webhook via AJAX
+        fetch('https://hook.us1.make.com/ifqyh9coi2hiyyyyd2ifklg3pjxwn65x', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(formData),
+        })
+        .then(response => {
+            if (response.ok) {
+                // Show success message
+                document.getElementById("form-response").innerHTML = "<p class='text-success'>Thank you! Your message has been sent.</p>";
+                document.getElementById("contact-form").reset(); // Reset form
+            } else {
+                // Show error message
+                document.getElementById("form-response").innerHTML = "<p class='text-danger'>Something went wrong. Please try again later.</p>";
+            }
+        })
+        .catch(error => {
+            // Show error message
+            document.getElementById("form-response").innerHTML = "<p class='text-danger'>There was an error: " + error.message + "</p>";
+        });
+    });
+    
 });
